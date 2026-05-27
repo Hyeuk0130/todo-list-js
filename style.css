@@ -1,0 +1,22 @@
+/* 할 일이 완료되었을 때 배경을 흐리게 처리 */
+.todo-item.completed {
+    background-color: #f1f1f1;
+    opacity: 0.6;
+}
+
+/* 완료된 할 일의 글자에 가로줄(취소선) 긋기 */
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* 완료 버튼 디자인 세팅 (옵션) */
+.complete-btn {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin-right: 5px;
+}
